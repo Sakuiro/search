@@ -30,6 +30,17 @@
 		padding: 0;
 	}
 
+	/*gotop*/
+	.goTop >img{
+		width: 50px;
+		height: 50px;
+		cursor: pointer;
+	}
+	.goTop{
+		position: fixed;
+		right : 20px;
+		bottom : 20px;
+	}
 	/*字体*/
 	.font {
 		background: #EEE url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAHklEQVQImWNkYGBgYGD4//8/A5wF5SBYyAr+//8PAPOCFO0Q2zq7AAAAAElFTkSuQmCC) repeat;

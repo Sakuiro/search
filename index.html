@@ -419,12 +419,28 @@
 		</div>
 	</footer>
 	<!-- backtotop -->
-	<div id="get-top" title="回到顶部" style="display: none;"><i class="icon fas fa-chevron-up"></i></div>
+	<div class="goTop" id="js-go_top"><img src="./images/icon_top.png" alt="回到顶部图片"></div>
+	<script src="js/gototop.js"></script>
+	<script>
+		//示例
+		$('#js-go_top').gotoTop({
+			offset: 100, //距离顶部的位置
+			speed: 300, //移动到顶部的速度
+			/*     iconSpeed : 300, //icon动画样式的速度*/
+			animationShow: {
+				'transform': 'translate(0,0)',
+				'transition': 'transform .5s ease-in-out'
+			}, //icon动画样式显示时
+			animationHide: {
+				'transform': 'translate(80px,0)',
+				'transition': 'transform .5s ease-in-out'
+			} //icon动画样式隐藏时
+		});
+	</script>
 	<!-- backtotop -->
 	<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
 	<script type="text/javascript" src="./js/main.js"></script>
 	<script type="text/javascript" src="./js/text.js"></script>
-	<script type="text/javascript" src="./js/gotop.js"></script>
 </body>
 
 </html>
