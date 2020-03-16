@@ -68,7 +68,7 @@ window.onscroll = function () {
   var now = -1;
   var resLength = 0;
   var thisSearch = 'https://www.baidu.com/s?wd=';
-  var thisSearchIcon = './images/baidu.png';
+  var thisSearchIcon = './images/baidu.svg';
   var storage = window.localStorage;
   if (!storage.stopHot) {
     storage.stopHot = true
@@ -175,27 +175,27 @@ window.onscroll = function () {
     var search = {
       data: [{
         name: '百度',
-        img: './images/baidu.png',
+        img: './images/baidu.svg',
         url: 'https://www.baidu.com/s?wd='
       }, {
         name: '谷歌',
-        img: './images/google.png',
+        img: './images/google.svg',
         url: 'https://www.google.com/search?q='
       }, {
         name: '必应',
-        img: './images/bing.png',
+        img: './images/bing.svg',
         url: 'https://cn.bing.com/search?q='
       }, {
         name: '好搜',
-        img: './images/search.png',
+        img: './images/sosuo.svg',
         url: 'https://www.so.com/s?q='
       }, {
         name: '搜狗',
-        img: './images/sougou.png',
+        img: './images/sogou.svg',
         url: 'https://www.sogou.com/web?query='
       }]
     }
-    for (var i = 0; i < search.data.length; i++) {
+    for (var i = 0; i < search.data.length;) {
       var addList = '<li><img src="' + search.data[i].img + '"/>' + search.data[i].name + '</li>'
       $('.search-engine-list').append(addList);
     }
