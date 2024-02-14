@@ -21,9 +21,12 @@ svg.icon {
     overflow: hidden;
 }
 
-img.pic {
+.pic {
     width: 20px;
     height: 20px;
+    vertical-align: middle;
+    margin: 0 5px 0 8px;
+    
 }
 
 /* --- search --- */
