@@ -7,7 +7,7 @@ github：https://github.com/5iux/5iux.github.io
 */
 body {
     font-family: "微软雅黑";
-    font-weight: bold ;
+    font-weight: bold;
     font-size: 14px;
     background: #f4f8fb;
 }
@@ -19,6 +19,11 @@ svg.icon {
     vertical-align: -0.15em;
     fill: currentColor;
     overflow: hidden;
+}
+
+.pic {
+    width: 20px;
+    height: 20px;
 }
 
 /* --- search --- */
