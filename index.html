@@ -1,238 +1,461 @@
-<!--save from 主页：https://yyv.me/ github：https://github.com/5iux/sou -->
+<!-- code for github.com/5iux -->
 <!DOCTYPE html>
 <html lang="zh-CN">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="Cache-Control" content="no-siteapp">
-    <link rel="icon" href="./img/favicon-192x192.ico" sizes="192x192">
-    <link rel="apple-touch-icon-precomposed" href="favicon.ico">
-    <meta name="msapplication-TileImage" content="favicon.ico">
-    <link rel="shortcut icon" href="favicon.ico">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="full-screen" content="yes">
-    <!--UC强制全屏-->
-    <meta name="browsermode" content="application">
-    <!--UC应用模式-->
-    <meta name="x5-fullscreen" content="true">
-    <!--QQ强制全屏-->
-    <meta name="x5-page-mode" content="app">
-    <!--QQ应用模式-->
-    <title>樱花集 - Sakuiro's 小站</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/font.css">
-    <script src="./js/bundle.js" charset="utf-8" async=""></script>
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/sou.js"></script>
-    <style seniversewidget="" data-styled-version="4.3.2"></style>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+                content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>樱花集-Sakuiro's 小站</title>
+        <link rel="apple-touch-icon-precomposed" href="favicon.ico" />
+        <meta name="msapplication-TileImage" content="favicon.ico" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="full-screen" content="yes">
+        <!--UC强制全屏-->
+        <meta name="browsermode" content="application">
+        <!--UC应用模式-->
+        <meta name="x5-fullscreen" content="true">
+        <!--QQ强制全屏-->
+        <meta name="x5-page-mode" content="app">
+        <!--QQ应用模式-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+                integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+                crossorigin="anonymous">
+        <link rel="stylesheet" id="font-awesome-css"
+                href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css?ver=1.1422"
+                type="text/css" media="all">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://at.alicdn.com/t/c/font_1710294_65136soikxw.js"></script>
+        <link rel='stylesheet' href='style.css'>
 </head>
 
 <body>
-    <div id="menu" class=""><i></i></div>
-    <div class="list closed">
-        <ul>
-            <!------>
-            <li class="title"><i class="iconfont icon-shipin"></i> 视频媒体</li>
-            <li><a rel="nofollow" href="https://www.youtube.com/" target="_blank"><i class="iconfont icon-youtube"
-                        style="color:#f03;"></i>Youtube</a></li>
-            <li><a rel="nofollow" href="https://v.qq.com/" target="_blank"><i class="iconfont icon-tengxunshipin"
-                        style="color:#2a0;"></i>腾讯视频</a></li>
-            <li><a rel="nofollow" href="https://www.youku.com/" target="_blank"><i class="iconfont icon-youku"
-                        style="color:#09e;"></i>优酷</a></li>
-            <li><a rel="nofollow" href="https://www.iqiyi.com/" target="_blank"><i class="iconfont icon-aiqiyi"
-                        style="color:#1d0;"></i>爱奇艺</a></li>
-            <li><a rel="nofollow" href="http://www.zmz2019.com/" target="_blank"><i class="iconfont icon-zimu"
-                        style="color: #067;"></i>字幕组</a></li>
-            <li><a rel="nofollow" href="http://www.acfun.cn/index.html" target="_blank"><i class="iconfont icon-acfun"
-                        style="color:#f33;"></i>ACFUN</a></li>
-            <li><a rel="nofollow" href="https://www.bilibili.com/" target="_blank"><i class="iconfont icon-bili"
-                        style="color:#0ad;"></i>哔哩哔哩</a></li>
-            <li><a rel="nofollow" href="https://g.5iux.cn/movies/" target="_blank"><i class="iconfont icon-yunbo"
-                        style="color:#ff8800;"></i>影视搜索</a></li>
-            <!------>
-            <li class="title"><i class="iconfont icon-sheji"></i> 设计视觉</li>
-            <li><a rel="nofollow" href="https://web.yyv.me/" target="_blank"><i
-                        class="iconfont icon-daohang1"></i>设计导航</a></li>
-            <li><a rel="nofollow" href="https://www.pinterest.com/" target="_blank"><i class="iconfont icon-pinterest"
-                        style="color:#e02;"></i>Pinterest</a></li>
-            <li><a rel="nofollow" href="https://www.behance.net/" target="_blank"><i class="iconfont icon-behance"
-                        style="color:#56f;"></i>Behance</a></li>
-            <li><a rel="nofollow" href="https://www.dribbble.com/" target="_blank"><i class="iconfont icon-dribbble"
-                        style="color:#e48;"></i>Dribbble</a></li>
-            <li><a rel="nofollow" href="https://huaban.com/" target="_blank"><i class="iconfont icon-huaban"
-                        style="color:#f06;"></i>花瓣</a></li>
-            <li><a rel="nofollow" href="https://www.zcool.com.cn/" target="_blank"><i class="iconfont icon-zhanku"
-                        style="color:#f90;"></i>站酷</a></li>
-            <li><a rel="nofollow" href="https://www.iconfont.cn/" target="_blank"><i class="iconfont icon-iconfont"
-                        style="color: #ff6019;"></i>阿里图标</a></li>
-            <li><a rel="nofollow" href="https://www.iconfinder.com/" target="_blank"><i
-                        class="iconfont icon-eye"></i>IconFinder</a></li>
-            <li><a rel="nofollow" href="https://uiiiuiii.com/" target="_blank"><i class="iconfont icon-jiaocheng"
-                        style="color:#0aa;"></i>优设教程</a></li>
-            <!------>
-            <li class="title"><i class="iconfont icon-msg"></i> 社交</li>
-            <li><a rel="nofollow" href="https://www.weibo.com/" target="_blank"><i class="iconfont icon-weibo"
-                        style="color: #e6162d;"></i>微博</a></li>
-            <li><a rel="nofollow" href="https://www.zhihu.com/" target="_blank"><i class="iconfont icon-zhihu"
-                        style="color: #0084ff;"></i>知乎</a></li>
-            <li><a rel="nofollow" href="https://www.douban.com/" target="_blank"><i class="iconfont icon-douban"
-                        style="color: #072;"></i>豆瓣</a></li>
-            <li><a rel="nofollow" href="https://www.jianshu.com/" target="_blank"><i class="iconfont icon-jianshu"
-                        style="color:#e46e57;"></i>简书</a></li>
-            <li><a rel="nofollow" href="https://www.v2ex.com/" target="_blank"><i class="iconfont icon-v2ex"
-                        style="color: #555;"></i>V2EX</a></li>
-            <li><a rel="nofollow" href="https://www.instagram.com/" target="_blank"><i class="iconfont icon-instagram"
-                        style="color: #93009f;"></i>Instagram</a></li>
-            <li><a rel="nofollow" href="https://www.twitter.com/" target="_blank"><i class="iconfont icon-twitter"
-                        style="color: #00bcff;"></i>Twitter</a></li>
-            <li><a rel="nofollow" href="https://www.facebook.com/" target="_blank"><i class="iconfont icon-facebook"
-                        style="color: #4267b2;"></i>Facebook</a></li>
-            <!------>
-            <li class="title"><i class="iconfont icon-gouwuche"></i> 购物</li>
-            <li><a rel="nofollow" href="https://www.taobao.com/" target="_blank"><i class="iconfont icon-taobao"
-                        style="color: #ff6019;"></i>淘宝网</a></li>
-            <li><a rel="nofollow" href="https://dyartstyle.com/juhuasuan/" target="_blank"><i
-                        class="iconfont icon-juhuasuan" style="color: #E61414;"></i>聚划算</a></li>
-            <li><a rel="nofollow" href="https://dyartstyle.com/temai/" target="_blank"><i class="iconfont icon-temai"
-                        style="color: #ff6019;"></i>淘宝特卖</a></li>
-            <li><a rel="nofollow" href="https://www.pinduoduo.com/" target="_blank"><i class="iconfont icon-99"
-                        style="color: #f83e3e;"></i>拼多多</a></li>
-            <li><a rel="nofollow" href="https://www.jd.com/" target="_blank"><i class="iconfont icon-jingdong"
-                        style="color: #e33333;"></i>京东</a></li>
-            <li><a rel="nofollow" href="https://www.suning.com/" target="_blank"><i class="iconfont icon-suning"
-                        style="color: #f90;"></i>苏宁易购</a></li>
-            <li><a rel="nofollow" href="http://you.163.com/" target="_blank"><i class="iconfont icon-yanxuan"
-                        style="color: #B4A078;"></i>网易严选</a></li>
-            <li><a rel="nofollow" href="https://www.amazon.cn/" target="_blank"><i class="iconfont icon-amazon"
-                        style="color: #fc9b18;"></i>亚马逊</a></li>
-            <li><a rel="nofollow" href="http://www.dangdang.com/" target="_blank"><i class="iconfont icon-dangdang"
-                        style="color: #ff2832;"></i>当当</a></li>
-            <li><a rel="nofollow" href="https://wat.dyartstyle.com/" target="_blank"><i class="iconfont icon-wat"
-                        style="color: #fe2e52;"></i>吾爱淘</a></li>
-            <!------>
-            <li class="title"><i class="iconfont icon-youxiang"></i> 邮箱</li>
-            <li><a rel="nofollow" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i
-                        class="iconfont icon-gmail" style="color: #f03;"></i>Gmail</a></li>
-            <li><a rel="nofollow" href="https://outlook.com" target="_blank"><i class="iconfont icon-windows"
-                        style="color: #059;"></i>Outlook</a></li>
-            <li><a rel="nofollow" href="https://mail.163.com/" target="_blank"><i class="iconfont icon-wangyi"
-                        style="color: #c6001d;"></i>网易邮箱</a></li>
-            <li><a rel="nofollow" href="https://mail.sina.com.cn/" target="_blank"><i class="iconfont icon-xinlang"
-                        style="color: #e6162d;"></i>新浪邮箱</a></li>
-            <li><a rel="nofollow" href="https://mail.qq.com/" target="_blank"><i class="iconfont icon-QQ"
-                        style="color: #f05;"></i>QQ邮箱</a></li>
-            <li><a rel="nofollow" href="https://qiye.aliyun.com/" target="_blank"><i class="iconfont icon-yunyouxiang"
-                        style="color: #f15534;"></i>阿里邮箱</a></li>
-            <!------>
-            <li class="title"><i class="iconfont icon-ai-tool"></i> 工具</li>
-            <li><a rel="nofollow" href="http://tools.imiku.me/" target="_blank"><i
-                        class="iconfont icon-ai-tool"></i>Miku工具</a></li>
-            <li><a rel="nofollow" href="https://g.5iux.cn/ip/" target="_blank"><i class="iconfont icon-wangluo"
-                        style="color: #02f;"></i>IP查询</a></li>
-            <li><a rel="nofollow" href="https://translate.google.cn/?hl=zh-CN" target="_blank"><i
-                        class="iconfont icon-fanyi" style="color: #02f;"></i>谷歌翻译</a></li>
-            <li><a rel="nofollow" href="http://www.slimego.cn/" target="_blank"><i class="iconfont icon-shilaimu"
-                        style="color: #0f89c2;"></i>史莱姆</a></li>
-            <li><a rel="nofollow" href="https://feedly.com/" target="_blank"><i class="iconfont icon-feedly"
-                        style="color: #11dd00;"></i>Feedly</a></li>
-            <li><a rel="nofollow" href="https://pan.baidu.com/" target="_blank"><i class="iconfont icon-baiduyun"
-                        style="color: #148bfe;"></i>百度网盘</a></li>
-            <li><a rel="nofollow" href="https://www.baiduwp.com/" target="_blank"><i
-                        class="iconfont icon-cloud-download" style="color: #148bfe;"></i>网盘解析</a></li>
-            <li><a rel="nofollow" href="https://www.mdeditor.com/" target="_blank"><i class="iconfont icon-md"
-                        style="color:#09f;"></i>MD编辑器</a></li>
-            <li><a rel="nofollow" href="http://cubic-bezier.com/" target="_blank"><i class="iconfont icon-quxian"
-                        style="color: #f08;"></i>贝赛尔曲线</a></li>
-            <li><a rel="nofollow" href="https://g.5iux.cn/base64/" target="_blank"><i class="iconfont icon-base64"
-                        style="color:#1d0;"></i>Base64</a></li>
-            <li><a rel="nofollow" href="https://javascriptobfuscator.com/Javascript-Obfuscator.aspx" target="_blank"><i
-                        class="iconfont icon-jshunxiao" style="color: #48c;"></i>JS混淆器</a></li>
-            <li><a rel="nofollow" href="https://ping.pe/" target="_blank"><i class="iconfont icon-wangluo1"
-                        style="color:#1d0;"></i>Ping.pe</a></li>
-            <li><a rel="nofollow" href="https://ping.chinaz.com/" target="_blank"><i class="iconfont icon-pingup"
-                        style="color:#2361ad;"></i>站长Ping</a></li>
-            <li><a rel="nofollow" href="https://apkdl.in/" target="_blank"><i class="iconfont icon-anzhuo"
-                        style="color:#094;"></i>APK下载</a></li>
-            <!------>
-            <li class="title"><i class="iconfont icon-kongzhitai"></i> 开发</li>
-            <li><a rel="nofollow" href="http://www.w3school.com.cn/" target="_blank"><i class="iconfont icon-h5"
-                        style="color:#c03;"></i>W3school</a></li>
-            <li><a rel="nofollow" href="https://github.com/" target="_blank"><i
-                        class="iconfont icon-github"></i>Github</a></li>
-            <li><a rel="nofollow" href="https://codepen.io/" target="_blank"><i
-                        class="iconfont icon-codepen"></i>Codepen</a></li>
-            <li><a rel="nofollow" href="https://www.52pojie.cn/" target="_blank"><i class="iconfont icon-theater-masks"
-                        style="color:#f03;"></i>吾爱破解</a></li>
-            <li><a rel="nofollow" href="https://segmentfault.com/" target="_blank"><i class="iconfont icon-msg"
-                        style="color:#096;"></i>SF思否</a></li>
-            <li><a rel="nofollow" href="https://cdnjs.com/" target="_blank"><i class="iconfont icon-cdnjs"
-                        style="color: #e52;"></i>CdnJs</a></li>
-            <li><a rel="nofollow" href="https://fontawesome.com/icons?d=gallery&amp;m=free" target="_blank"><i
-                        class="iconfont icon-font-awesome" style="color: #4af;"></i>Font A.</a></li>
-            <li><a rel="nofollow" href="https://msdn.itellyou.cn/" target="_blank"><i class="iconfont icon-windows"
-                        style="color: #48c;"></i>MSDN下载</a></li>
-            <li><a rel="nofollow" href="https://dash.cloudflare.com/" target="_blank"><i
-                        class="iconfont icon-cloudflare" style="color: #f37f20;"></i>C. flare</a></li>
-            <li><a rel="nofollow" href="https://www.swiper.com.cn/" target="_blank"><i class="iconfont icon-S"
-                        style="color:#065fe3;"></i>Swiper</a></li>
-        </ul>
-    </div>
-    <script>
-        (function (a, h, g, f, e, d, c, b) {
-            b = function () {
-                d = h.createElement(g);
-                c = h.getElementsByTagName(g)[0];
-                d.src = e;
-                d.charset = "utf-8";
-                d.async = 1;
-                c.parentNode.insertBefore(d, c)
-            };
-            a["SeniverseWeatherWidgetObject"] = f;
-            a[f] || (a[f] = function () {
-                (a[f].q = a[f].q || []).push(arguments)
-            });
-            a[f].l = +new Date();
-            if (a.attachEvent) {
-                a.attachEvent("onload", b)
-            } else {
-                a.addEventListener("load", b, false)
-            }
-        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" +
-            parseInt((new Date().getTime() / 100000000).toString(), 10)));
-        window.SeniverseWeatherWidget('show', {
-            flavor: "slim",
-            location: "WX4FBXXFKE4F",
-            geolocation: true,
-            language: "zh-Hans",
-            unit: "c",
-            theme: "auto",
-            token: "fd08684d-bf66-4982-999d-4d0f260c236d",
-            hover: "enabled",
-            container: "tp-weather-widget"
-        })
-    </script>
+        <!--topbar开始-->
+        <style>
+                .navbar-toggler svg {
+                        width: 24px;
+                        height: 24px;
+                }
 
-    <div id="content">
-        <div class="con">
-            <div class="shlogo"></div>
-            <div class="sou">
-                <form action="https://www.google.com/search?hl=zh" method="get" target="_self">
-                    <input class="wd" type="text" placeholder="请输入搜索内容" name="q" x-webkit-speech="" lang="zh-CN">
-                    <button><i style="font-size: 20px;" class="iconfont icon-sousuo" style="color: #000;"></i></button>
-                </form>
-                <ul>
-                    <li data-s="baidu" target="_blank"><i style="background-image: url(./img/baidu.svg);"></i>百度一下</li>
-                    <li data-s="google" target="_blank"><i style="background-image: url(./img/google.svg);"></i>Google</li>
+                .navbar-toggler .bi-list-nested {
+                        display: none;
+                }
+
+                .navbar-toggler.collapsed .bi-list-nested {
+                        display: block;
+                }
+
+                .navbar-toggler.collapsed .bi-x {
+                        display: none;
+                }
+
+                .navbar-toggler .bi-x {
+                        display: block;
+                }
+        </style>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top"
+                style="box-shadow:0 0 5px rgb(221 221 221 / 0.6); background: #fff">
+                <a class="navbar-brand"><img src="plum-blossom.svg" height="45" style=" margin-left: 0px;"
+                                alt="">樱花集</a>
+
+                <div class="collapse navbar-collapse" id="navbarsExample05">
+                        <style>
+                                #he-plugin-simple {
+                                        z-index: 1000;
+                                }
+                        </style>
+                        <div id="he-plugin-simple"></div>
+                        <script>
+                                WIDGET = {
+                                        CONFIG: {
+                                                "modules": "01234",
+                                                "background": 5,
+                                                "tmpColor": "4A4A4A",
+                                                "tmpSize": 14,
+                                                "cityColor": "4A4A4A",
+                                                "citySize": 14,
+                                                "aqiSize": 14,
+                                                "weatherIconSize": 22,
+                                                "alertIconSize": 16,
+                                                "padding": "8px 8px 8px 8px",
+                                                "shadow": "1",
+                                                "language": "auto",
+                                                "borderRadius": 5,
+                                                "fixed": "false",
+                                                "vertical": "middle",
+                                                "horizontal": "center",
+                                                "key": "f60588bd99d94495b907562a23e05666"
+                                        }
+                                }
+                        </script>
+                </div>
+        </nav>
+        <!--topbar结束-->
+        <div class="container" style="margin-top: 100px;">
+                <!--搜索开始-->
+                <div id="search" class="s-search">
+                        <div id="search-list" class="hide-type-list">
+                                <div class="search-group group-a s-current" style="padding-left: 20px">
+                                        <ul class="search-type">
+
+                                                <li><input checked="" hidden="" type="radio" name="type" id="type-baidu"
+                                                                value="https://www.baidu.com/s?wd="
+                                                                data-placeholder="百度一下，你就知道"><label for="type-baidu"><span
+                                                                        style="color:#000000">百度</span></label></li>
+
+                                                <li><input hidden="" type="radio" name="type" id="type-google"
+                                                                value="https://www.google.com/search?hl=zh-CN&q="
+                                                                data-placeholder="Google"><label for="type-google"><span
+                                                                        style="color:#000000">谷歌</span></label></li>
+
+                                                <li><input hidden="" type="radio" name="type" id="type-bing"
+                                                                value="https://bing.com/search?q="
+                                                                data-placeholder="Bing"><label for="type-bing"><span
+                                                                        style="color:#000000">必应</span></label></li>
+                                        </ul>
+                                </div>
+                        </div>
+                        <form action="https://www.baidu.com/s?wd=" method="get" target="_blank" id="super-search-fm">
+                                <input type="text" id="search-text" placeholder="百度一下，你就知道" style="outline:0"
+                                        autocomplete="off"><button type="submit"><svg
+                                                style="width: 22px; height: 22px; margin:5px 0; color: rgb(0, 0, 0);"
+                                                class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-fangdajing"></use>
+                                        </svg></button>
+                        </form>
+                        <div class="set-check hidden-xs">
+                                <input type="checkbox" id="set-search-blank" class="bubble-3" autocomplete="off">
+                        </div>
+                        <div id="word"></div>
+                </div>
+                <!--搜索结束-->
+                <ul class="mylist row">
+                        <li class="title"><svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-wenjianjia"></use>
+                                </svg>常用网站</li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1">
+                                <a rel="nofollow" href="https://store.steampowered.com/" target="_blank">
+                                        <img src="https://favicons.sakuiro.workers.dev/store.steampowered.com.ico"
+                                                class="pic">Steam</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1">
+                                <a rel="nofollow" href="https://www.wegame.com.cn/" target="_blank">
+                                        <img src="https://favicons.sakuiro.workers.dev/www.wegame.com.cn.ico"
+                                                class="pic">Wegame</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.ubisoft.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.ubisoft.com.ico"
+                                                class="pic">Ubisoft</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.epicgames.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.epicgames.com.ico"
+                                                class="pic">Epic</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.microsoft.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.microsoft.com.ico"
+                                                class="pic">Microsoft</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.intel.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.intel.com.ico"
+                                                class="pic">Intel</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.nvidia.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.nvidia.com.ico"
+                                                class="pic">NVIDIA</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="http://www.acfun.cn/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/www.acfun.cn.ico"
+                                                class="pic">Acfun</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.bilibili.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.bilibili.com.ico"
+                                                class="pic">Bilibili</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.kudm.vip/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/www.kudm.vip.ico"
+                                                class="pic">异世界动漫</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.twitch.tv/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.twitch.tv.ico"
+                                                class="pic">Twitch</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.youtube.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.youtube.com.ico"
+                                                class="pic">Youtube</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://v.qq.com/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/v.qq.com.ico"
+                                                class="pic">腾讯视频</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.youku.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.youku.com.ico"
+                                                class="pic">优酷视频</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.iqiyi.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.iqiyi.com.ico"
+                                                class="pic">爱奇艺</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://vidhub.me/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/vidhub.me.ico"
+                                                class="pic">视频库</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://ddys.site/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/ddys.pro.ico"
+                                                class="pic">低端影视</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.taobao.com"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.taobao.com.ico"
+                                                class="pic">淘宝</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.jd.com"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/www.jd.com.ico"
+                                                class="pic">京东</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.amazon.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.amazon.com.ico"
+                                                class="pic">亚马逊</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.1688.com/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/www.1688.com.ico"
+                                                class="pic">1688</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.weibo.com"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.weibo.com.ico"
+                                                class="pic">微博</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://tieba.baidu.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/tieba.baidu.com.ico"
+                                                class="pic">贴吧</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.instagram.com"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.instagram.com.ico"
+                                                class="pic">Ins</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://onlyfans.com/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/onlyfans.com.ico"
+                                                class="pic">Onlyfans</a>
+                        </li>
+
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://x.com"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/x.com.ico"
+                                                class="pic">Twitter</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.facebook.com"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.facebook.com.ico"
+                                                class="pic">Facebook</a></li>
                 </ul>
-            </div>
+                <ul class="mylist row">
+                        <li class="title"><svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-torrent_folder"></use>
+                                </svg>在线工具</li>
+
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://bbs.3dmgame.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/bbs.3dmgame.com.ico"
+                                                class="pic">3DM论坛</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.52pojie.cn/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.52pojie.cn.ico"
+                                                class="pic">吾爱破解</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://flingtrainer.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/flingtrainer.com.ico"
+                                                class="pic">FLiNG</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow"
+                                        href="https://smallpdf.com/pdf-tools" target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/smallpdf.com.ico"
+                                                class="pic">Smallpdf</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://tools.pdf24.org/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/tools.pdf24.org.ico"
+                                                class="pic">PDF24</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://sukebei.nyaa.si/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/sukebei.nyaa.si.ico"
+                                                class="pic">Sukebei</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://uniondht.org/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/uniondht.org.ico"
+                                                class="pic">俄罗斯磁力</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://btdig.com/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/btdig.com.ico"
+                                                class="pic">Btdig</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://1207so.link/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/bt1207px.top.ico"
+                                                class="pic">BT1207</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://torrentgalaxy.to/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/torrentgalaxy.to.ico"
+                                                class="pic">TorrentG</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://rargb.to/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/rargb.to.ico"
+                                                class="pic">RARBG</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow"
+                                        href="https://www.limetorrents.lol/" target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.limetorrents.lol.ico"
+                                                class="pic">LimeT</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://1337x.to/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/1337x.to.ico"
+                                                class="pic">1337x</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.meijutt.tw/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.meijutt.tw.ico"
+                                                class="pic">美剧天堂</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://yts.mx/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/yts.mx.ico"
+                                                class="pic">YTS.mx</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://thepiratebay.org/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/thepiratebay.org.ico"
+                                                class="pic">PirateBay</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://dmhy.org/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/dmhy.org.ico"
+                                                class="pic">动漫花园</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://eztvx.to/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/eztvx.to.ico"
+                                                class="pic">EZTV</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://igg-games.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/igg-games.com.ico"
+                                                class="pic">IGAMES</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow"
+                                        href="https://www.skidrowreloaded.com/" target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/skidrowreloaded.com.ico"
+                                                class="pic">盗版游戏</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow"
+                                        href="https://fitgirl-repacks.site/" target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/fitgirl-repacks.site.ico"
+                                                class="pic">涩涩游戏</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://9xbuddy.online/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/9xbuddy.online.ico"
+                                                class="pic">9xbuddy</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://m2t.lolicon.app/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/lolicon.app.ico"
+                                                class="pic">磁力转种</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="http://iqdb.org/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/iqdb.org.ico"
+                                                class="pic">以图搜图</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://yande.re/post"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/yande.re.ico"
+                                                class="pic">Yande.re</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://konachan.com/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/konachan.com.ico"
+                                                class="pic">Konachan</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://wallhaven.cc/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/wallhaven.cc.ico"
+                                                class="pic">Wallhaven</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow"
+                                        href="https://pandao.github.io/editor.md/" target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/search.sakuiro.cc.ico"
+                                                class="pic">MD编辑器</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.toolnb.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.toolnb.com.ico"
+                                                class="pic">在线工具</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.lddgo.net/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.lddgo.net.ico"
+                                                class="pic">在线工具</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.iiice.cn/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/www.iiice.cn.ico"
+                                                class="pic">下次一定</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://ruancang.net/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/ruancang.net.ico"
+                                                class="pic">软仓</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="http://ccyykk.firadio.net/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/ccyykk.firadio.net.ico"
+                                                class="pic">乐趣</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow"
+                                        href="https://www.shenyandayi.com/" target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.shenyandayi.com.ico"
+                                                class="pic">深言达意</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://bigmp4.com/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/bigmp4.com.ico"
+                                                class="pic">Ai视频放大</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow"
+                                        href="https://fse.agilestudio.cn/" target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/fse.agilestudio.cn.ico"
+                                                class="pic">33搜帧</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.jiansouti.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.jiansouti.com.ico"
+                                                class="pic">简搜题</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://git-scm.com/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/git-scm.com.ico"
+                                                class="pic">Git</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://github.com/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/github.com.ico"
+                                                class="pic">Github</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://gitee.com/"
+                                        target="_blank"><img src="https://favicons.sakuiro.workers.dev/gitee.com.ico"
+                                                class="pic">Gitee</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://about.gitlab.com/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/about.gitlab.com.ico"
+                                                class="pic">Gitlab</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://msdn.itellyou.cn/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/msdn.itellyou.cn.ico"
+                                                class="pic">MSDN下载</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="http://www.wepe.com.cn/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.wepe.com.cn.ico"
+                                                class="pic">微PE工具</a>
+                        </li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://home.edgeless.top/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/home.edgeless.top.ico"
+                                                class="pic">Edgeless</a></li>
+                        <li class="col-4 col-sm-4 col-md-3 col-lg-1"><a rel="nofollow" href="https://www.ventoy.net/"
+                                        target="_blank"><img
+                                                src="https://favicons.sakuiro.workers.dev/www.ventoy.net.ico"
+                                                class="pic">Ventoy</a>
+                        </li>
+                </ul>
+
         </div>
-        <div class="foot">© 2020 by Sakuiro</a> . All rights reserved.</div>
-    </div>
+        <p class="mt-5 mb-3 text-muted text-center">© 2025 by Sakuiro</p>
+        <script>
+                eval(function (e, t, a, c, i, n) {
+                        if (i = function (e) {
+                                return (e < t ? "" : i(parseInt(e / t))) + (35 < (e %= t) ? String.fromCharCode(e + 29) : e
+                                        .toString(36))
+                        }, !"".replace(/^/, String)) {
+                                for (; a--;) n[i(a)] = c[a] || i(a);
+                                c = [function (e) {
+                                        return n[e]
+                                }], i = function () {
+                                        return "\\w+"
+                                }, a = 1
+                        }
+                        for (; a--;) c[a] && (e = e.replace(new RegExp("\\b" + i(a) + "\\b", "g"), c[a]));
+                        return e
+                }('!2(){2 g(){h(),i(),j(),k()}2 h(){d.9=s()}2 i(){z a=4.8(\'A[B="7"][5="\'+p()+\'"]\');a&&(a.9=!0,l(a))}2 j(){v(u())}2 k(){w(t())}2 l(a){P(z b=0;b<e.O;b++)e[b].I.1c("s-M");a.F.F.F.I.V("s-M")}2 m(a,b){E.H.S("L"+a,b)}2 n(a){6 E.H.Y("L"+a)}2 o(a){f=a.3,v(u()),w(a.3.5),m("7",a.3.5),c.K(),l(a.3)}2 p(){z b=n("7");6 b||a[0].5}2 q(a){m("J",a.3.9?1:-1),x(a.3.9)}2 r(a){6 a.11(),""==c.5?(c.K(),!1):(w(t()+c.5),x(s()),s()?E.U(b.G,+T X):13.Z=b.G,10 0)}2 s(){z a=n("J");6 a?1==a:!0}2 t(){6 4.8(\'A[B="7"]:9\').5}2 u(){6 4.8(\'A[B="7"]:9\').W("14-N")}2 v(a){c.1e("N",a)}2 w(a){b.G=a}2 x(a){a?b.3="1a":b.16("3")}z y,a=4.R(\'A[B="7"]\'),b=4.8("#18-C-19"),c=4.8("#C-12"),d=4.8("#17-C-15"),e=4.R(".C-1b"),f=a[0];P(g(),y=0;y<a.O;y++)a[y].D("Q",o);d.D("Q",q),b.D("1d",r)}();',
+                        62, 77,
+                        "||function|target|document|value|return|type|querySelector|checked||||||||||||||||||||||||||var|input|name|search|addEventListener|window|parentNode|action|localStorage|classList|newWindow|focus|superSearch|current|placeholder|length|for|change|querySelectorAll|setItem|new|open|add|getAttribute|Date|getItem|href|void|preventDefault|text|location|data|blank|removeAttribute|set|super|fm|_blank|group|remove|submit|setAttribute"
+                                .split("|"), 0, {}));
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                crossorigin="anonymous">
+                </script>
 </body>
 
 </html>
